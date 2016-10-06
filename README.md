@@ -11,5 +11,5 @@ Docker Hub images which contains Tomcat and Artifactory.
 
 ## How-To:
 ```
-docker run -d --name artifactory -p 8081:8080 -v $(pwd)/artifactory jaysong/artifactory-oss:9.0-4.13.0
+docker run -d --name artifactory -p 8081:8080 -v $(pwd)/artifactory:/artifactory jaysong/artifactory-oss:9.0-4.13.0
 ```
