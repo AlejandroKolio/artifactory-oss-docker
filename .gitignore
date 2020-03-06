@@ -1,0 +1,55 @@
+## Java
+*.class
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+/**/.idea
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+## Eclipse
+/**/.settings
+/**/.classpath
+/**/.project
+
+### VS Code ###
+.vscode/
+
+## Maven
+/target
+/**/target
+/tmp
+
+## Spring boot
+application.pid
+
+## Maven
+/target
+/**/target
+/tmp
+
+## Spring boot
+application.pid

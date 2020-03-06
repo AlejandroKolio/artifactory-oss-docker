@@ -1,9 +1,9 @@
-FROM tomcat:9.0
+FROM tomcat:9.0.10
 
 # To update, check https://bintray.com/jfrog/artifactory/jfrog-artifactory-oss-zip/view
-ARG ARTIFACTORY_VERSION=4.13.0
+ARG ARTIFACTORY_VERSION=6.18.0
 ARG ARTIFACTORY_URL=https://bintray.com/jfrog/artifactory/download_file?file_path=jfrog-artifactory-oss-${ARTIFACTORY_VERSION}.zip
-ARG ARTIFACTORY_SHA256=5724e879642ba393f3242f73fc2684d3eafb21dee80c8086ab566f5c99aa908d
+ARG ARTIFACTORY_SHA256=5d47d98f677ea36e8c47714f46b0316f7dda5819de4ef4b2b30949f00906c36d
 
 # Disable Tomcat's manager application.
 RUN rm -rf $CATALINA_HOME/webapps/*
