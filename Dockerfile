@@ -3,7 +3,7 @@ FROM tomcat:9.0.10
 # To update, check https://bintray.com/jfrog/artifactory/jfrog-artifactory-oss-zip/view
 ARG ARTIFACTORY_VERSION=5.8.2
 ARG ARTIFACTORY_URL=https://bintray.com/jfrog/artifactory/download_file?file_path=jfrog-artifactory-oss-${ARTIFACTORY_VERSION}.zip
-ARG ARTIFACTORY_SHA256=5d47d98f677ea36e8c47714f46b0316f7dda5819de4ef4b2b30949f00906c36d
+ARG ARTIFACTORY_SHA256=cbb3ae8ba842b9f53122bd568e3dc9a3d8412eb5e720e973d6d188dc55e1fc54
 
 # Disable Tomcat's manager application.
 RUN rm -rf $CATALINA_HOME/webapps/*
